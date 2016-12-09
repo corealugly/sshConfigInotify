@@ -13,7 +13,7 @@ class daemon:
         # self.stdin = stdin
         self.stdout = stdout
         self.stderr = stderr
-        self.conf = config
+        self.config = config
 
     def daemonize(self):
         """Deamonize class. UNIX double fork mechanism."""
